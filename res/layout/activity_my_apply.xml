@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MyApplyActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:text="申请记录  " />
+
+        <ListView
+            android:id="@+id/MyAppList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="66dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--popupwindow效果-->
+    <style name="shipping_popup_style">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:background">#00000000</item> <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowEnterAnimation">@anim/shipping_popup_show</item>
+        <item name="android:windowExitAnimation">@anim/shipping_popup_hide</item>
+        <item name="android:windowBackground">@color/bgColor_overlay</item>  <!-- 设置window背景透明，也就是去边框 -->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

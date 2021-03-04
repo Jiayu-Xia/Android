@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ChooseFunctionActivity">
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="MyInfo"
+            android:text="我的信息" />
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToAddApp"
+            android:text="申请" />
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToMyApplyActivity"
+            android:text="我的申请" />
+
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToApprovalActivity"
+            android:text="审批" />
+
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToAddInfoActivity"
+            android:text="完善用户信息" />
+
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="JumpToAllAttendance"
+            android:text="查看全部考勤记录" />
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToAddressBook"
+            android:text="通信录" />
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="chooseDetectDegree"
+            android:text="@string/choose_detect_degree" />
+
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="activeEngine"
+            android:text="@string/active_engine" />
+
+       <!-- <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToFaceRecognizeActivity"
+            android:text="@string/page_face_recognize" />
+-->
+        <Button
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToBatchRegisterActivity"
+            android:text="@string/page_face_manage" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/registerBty"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToRegisterActivity"
+            android:text="注册" />
+
+        <Button
+            android:id="@+id/notificationBty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToAnnouncementActivity"
+            android:text="公告通知" />
+
+        <Button
+            android:id="@+id/clockBty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToFaceRecognizeActivity"
+            android:text="考勤打卡" />
+
+        <Button
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:onClick="jumpToLoginActivity"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/cleanInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="退出" />
+    </LinearLayout>
+
+
+</RelativeLayout>
